@@ -1,0 +1,32 @@
+name: flutter_login
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  get: ^4.6.5
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.2.2
+  cloud_firestore: ^4.6.0
+  google_sign_in: ^5.4.3
+    
+  flutter_lints: ^2.0.0
+  
+flutter:
+
+  uses-material-design: true
